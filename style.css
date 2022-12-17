@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+.container{
+    position: relative;
+    width: 1728px;
+    background: #FFFFFF;
+}
+.header{
+    display: block;
+    position: fixed;
+    width: 1728px;
+    height: 87px;
+    background: #000000;
+    z-index: 999;
+}
+.company-name{
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 38px;
+    top: 29px;
+}
+.company-name,.options>a,.content,.learn-btn{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.menu{
+    position: absolute;
+    float: right;
+    top: 29px;
+    right: 50px;
+}
+.menu>.options{
+    display: inline;
+}
+.options>a{
+    text-decoration: none;
+    padding: 10px;
+}
+/*   --- main----*/
+.content-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 140px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+.content{
+    position: absolute;
+    width: 791px;
+    height: 546px;
+    left: 38px;
+    top: 245px;
+    color: #000000;
+}
+.learn-btn{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 38px;
+    top: 662px;
+    background: #000000;
+}
+.right-box{
+    position: absolute;
+    width: 729px;
+    height: 911px;
+    left: 922px;
+    background: #D9D9D9;
+    top: 140px;
+}
+.right-img{
+    width: 729px;
+    height: 911px;
+}
+.section{
+    position: absolute;
+    width: 600px;
+    height: 94px;
+    top: 1154px;
+}
+.img-heading{
+    position: relative;
+    width: 600px;
+    height: 94px;
+    left: 50px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1700px;
+    justify-content: space-evenly;
+    
+}
+.img-box{
+    width: 498.42px;
+    height: 447.57px;
+    background: #D9D9D9;
+    margin-bottom: 50px;
+}
+.img-box > img{
+    width: 498.42px;
+    height: 447.57px;
+}
